@@ -40,7 +40,7 @@
       "addMendIdentifier": false
     }
   },
-  {
+  
   "settingsInheritedFrom": "myorganization/whitesource-config@main",
   "remediateSettings": {
     "workflowRules": {
@@ -53,5 +53,5 @@
        "github>mend-toolkit/mend-examples//Repo-Integration/Renovate/smart-merge"
       ]
   }
-}
+
 }
