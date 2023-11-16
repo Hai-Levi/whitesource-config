@@ -41,11 +41,7 @@
     }
   },
   
-  "settingsInheritedFrom": "myorganization/whitesource-config@main",
-  "remediateSettings": {
-    "workflowRules": {
-      "enabled": false
-    },
+  
     "enableRenovate": true,
     "extends": [
        "config:base",
