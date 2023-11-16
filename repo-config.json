@@ -30,7 +30,13 @@
   "remediateSettings": {
     "workflowRules": {
       "enabled": true
-    }
+    },
+    "enableRenovate": true,
+    "extends": [
+       "config:base",
+       "github>whitesource/merge-confidence:beta",
+       "github>mend-toolkit/mend-examples//Repo-Integration/Renovate/smart-merge"
+      ]
   },
   "imageSettings": {
     "imageTracing": {
@@ -42,12 +48,6 @@
   },
   
   
-    "enableRenovate": true,
-    "extends": [
-       "config:base",
-       "github>whitesource/merge-confidence:beta",
-       "github>mend-toolkit/mend-examples//Repo-Integration/Renovate/smart-merge"
-      ]
-  }
+   
 
 }
